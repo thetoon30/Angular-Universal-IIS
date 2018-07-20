@@ -31,17 +31,17 @@ How to install IISNode on Windows https://www.youtube.com/watch?v=JUYCDnqR8p0 fo
 12. Install iisnode
 13. paste file to root folder on IIS
 14. npm install express
-15. create web.config
+15. create web.config example web.config in my code
 
 ----real word applicetion maybe sub directory----
 
 1. copy file in folder sub directory
-2. edit web.cofig
+2. edit web.cofig example web.config_sub directory in my code
 3. copy file form folder browser except index.html and assets folder 
 4. paste same place server.js
 
 
 ----real word applicetion maybe use https----
-1. edit web.config
+1. edit web.config example web.config_https in my code
 
 
