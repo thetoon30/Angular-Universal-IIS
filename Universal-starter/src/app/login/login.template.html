@@ -1,0 +1,32 @@
+<div class="container">
+  <main id="content" class="widget-login-container" role="main">
+    <div class="row">
+      <div class="col-xl-4 col-md-6 col-10 offset-xl-4 offset-md-3 offset-1">
+        <section class="widget widget-login animated fadeInUp">
+          <header>
+              Login 
+          </header>
+          <div class="widget-body">
+            <p class="widget-login-info text-danger" *ngIf="isInValidLogin">{{errorMessage}}</p>
+            <form class="login-form mt-lg">
+              <div class="form-group">
+                <input class="form-control" id="userName" name="userName" type="text" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="pswd" name="pswd" type="password" placeholder="Password">
+              </div>
+              <div class="clearfix">
+                <div class="btn-toolbar">
+                    <button class="btn btn btn-primary" type="submit">Login</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    2018 &copy; Excel Bangkok.
+  </footer>
+</div>
